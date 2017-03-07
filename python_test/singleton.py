@@ -5,6 +5,11 @@ from functools import wraps
 
 # global variable
 class MySingletonA(object):
+
+
+    def _abc(self):
+        print('test')
+
     def foo(self):
         print('foo bar')
 instance = MySingletonA()
